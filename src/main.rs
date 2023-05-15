@@ -15,7 +15,7 @@ use crate::data::TodoItem;
 
 pub fn main() {
     let main_window = WindowDesc::new(build_ui())
-        .title("Todo Tutorial")
+        .title("Druid Todo Example")
         .window_size((400.0, 400.0))
         .show_titlebar(true);
 
